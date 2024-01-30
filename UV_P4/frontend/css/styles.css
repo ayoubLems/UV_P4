@@ -1,0 +1,89 @@
+
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to right, #003973, #E5E5BE);
+
+  }
+  
+  header {
+    background-image: linear-gradient(to right, #003973, #E5E5BE);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  #map {
+    height: 600px;
+    width: 1400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  
+
+  button {
+  margin-top: 15px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #003973;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+  }
+
+
+  button:hover {
+  background-color: #002855; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+
+  }
+
+  div{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+
+
+  img{
+    height:170px;
+    width:300px;
+  }
+
+  footer {
+    background-color: #333; /* Couleur de fond du footer */
+    color: #fff; /* Couleur du texte du footer */
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-logo-container {
+    width: 100px; /* Ajustez la largeur du logo selon vos besoins */
+  }
+  
+  .footer-sections {
+    display: flex;
+  }
+  
+  .section {
+    margin-right: 20px; /* Espace entre les sections */
+  }
+  
+  /* Ajoutez d'autres styles au besoin */
+  
+  
+
+  
